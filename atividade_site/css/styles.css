@@ -1,0 +1,106 @@
+.container {
+    width: 100%;
+    background-color: #dfd2d2;
+  }
+  
+  .nav-bar {
+    background-color: #53514f;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+  }
+  
+  .nav-bar .logo img {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+  
+  .nav-bar .links_paginas ul {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+  }
+  
+  .nav-bar ul li a {
+    padding: 20px;
+    color: #f8f6f6;
+    text-decoration: none;
+  }
+  
+  .nav-bar ul li a:hover {
+    font-size: 20px;
+    text-shadow: 1px 5px 10px #000;
+    color: #000;
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner img {
+    width: 100%;
+  }
+  
+  .cursos {
+    width: 70%;
+    margin: auto;
+    display: block;
+  }
+  .cursos h2 {
+    text-align: center;
+  }
+  
+  .cursos p {
+    text-align: justify;
+  }
+  
+  .cursos {
+    text-align: center;
+  }
+  
+  .cursos .cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 50px 0;
+  }
+  
+  .cursos img {
+    width: 80%;
+  }
+  
+  iframe {
+    margin: auto;
+    display: block;
+  }
+  
+  footer{
+    padding: 20px 0;
+    margin-top: 10px;
+    background-color: #ccc;
+    text-align: center;
+  }
+  .maps h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cards button{
+    text-align: center;
+   justify-content: center;
+   background-color: aqua;
+  }
+  

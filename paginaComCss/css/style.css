@@ -26,59 +26,80 @@
   list-style-type: none;
 }
 
-.nav-bar ul li a{
+.nav-bar ul li a {
   padding: 20px;
   color: #fff;
   text-decoration: none;
-  
 }
 
-.nav-bar ul li a:hover{
-    font-size: 20px;
-    text-shadow: 1px 5px 10px #000;
-    color: #000;
+.nav-bar ul li a:hover {
+  font-size: 20px;
+  text-shadow: 1px 5px 10px #000;
+  color: #000;
+}
 
-  }
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .banner{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-  }
-  
-  .banner img{
+.banner img {
+  width: 100%;
+}
 
-    width: 100%;
-    
-  }
+.historia {
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+.historia h2 {
+  text-align: center;
+}
 
-  .historia{
-    width: 70%;
-    margin: auto;
-    display: block;
-  }
-  .historia h2{
-    text-align: center;
-  }
+.historia p {
+  text-align: justify;
+}
 
-  .historia p{
-   text-align: justify;
-   
-  }
+.colaboradores {
+  text-align: center;
+}
 
-  .colaboradores{
-    text-align: center;
-  }
+.colaboradores .cards {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 50px 0;
+}
 
-  .colaboradores .cards{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    padding: 50px 0;
-  }
+.colaboradores img {
+  width: 80%;
+}
 
-  .colaboradores img{
-    width: 50%;
-  }
+iframe {
+  margin: auto;
+  display: block;
+}
+
+footer{
+  padding: 20px 0;
+  margin-top: 10px;
+  background-color: #ccc;
+  text-align: center;
+}
+.maps h1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.cards button{
+  text-align: center;
+ justify-content: center;
+ background-color: aqua;
+}

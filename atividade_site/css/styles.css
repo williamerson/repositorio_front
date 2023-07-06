@@ -48,7 +48,7 @@
     width: 100%;
   }
   
-  .cursos {
+  .curiosidade {
     width: 70%;
     margin: auto;
     display: block;
@@ -58,7 +58,8 @@
   }
   
   .cursos p {
-    text-align: justify;
+    text-align: center;
+    
   }
   
   .cursos {
@@ -73,9 +74,11 @@
   }
   
   .cursos img {
-    width: 80%;
-  }
+    width: 50%;
   
+ 
+  }
+    
   iframe {
     margin: auto;
     display: block;
@@ -98,9 +101,20 @@
     padding: 0;
   }
   
-  .cards button{
-    text-align: center;
-   justify-content: center;
-   background-color: aqua;
+  .cards button :hover{
+  text-align: center;
+  justify-content: center;
+   
   }
+  button{
+    text-align: center;
+      cursor: pointer;
+   
+  }
+form h1{
+  text-align: center;
+}
+.cursosEAD {
+  text-align: center;
   
+}
